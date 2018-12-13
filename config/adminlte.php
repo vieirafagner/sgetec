@@ -119,7 +119,7 @@ return [
                     'icon' => 'home'
                 ],
                 [
-                    'text' => 'Relatório de Professores',
+                    'text' => 'Relatório de Instituições',
                     'url' => '#',
                     'icon'=> 'list'
                 ],

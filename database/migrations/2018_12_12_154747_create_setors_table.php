@@ -15,6 +15,9 @@ class CreateSetorsTable extends Migration
     {
         Schema::create('setors', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('nome');
+            $table->integer('c_horaria');
+            $table->integer('n_vagas');
             $table->timestamps();
         });
     }

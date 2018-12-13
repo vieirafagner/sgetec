@@ -20,6 +20,7 @@ class CreateEstagiariosTable extends Migration
             $table->string('email');
             $table->string('setor');
             $table->string('telefone');
+
             $table->timestamps();
         });
     }

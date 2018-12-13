@@ -7,6 +7,7 @@
             <div class="box">
                 <div class="box-header with-border">
                     <h3 class="box-title">Lista de Estagiários</h3>
+                        <a class="btn btn-default bg-purple pull-right" href="{{route('estagiarios.create')}}"><span class="glyphicon glyphicon-plus"></span> </a>
                 </div>
                 <div class="box-body">
                     <div class="row-fluid"></div>
@@ -58,6 +59,8 @@
         <!-- /.box -->
     </div>
     <!-- /.col -->
+
     </div>
+
 @endsection
 @stop
