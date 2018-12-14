@@ -59,7 +59,7 @@ class EstagiarioController extends Controller
      */
     public function edit(Estagiario $estagiario)
     {
-        return view('estagiarios.editar',compact('estagiario'));
+
     }
 
     /**
